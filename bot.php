@@ -112,17 +112,17 @@ function commandWhois($message)
 {
     $who = explode(' ', $message->content, 2);
     $reply = 'Not sure which one that is. Host names are Eric, John, and Tom';
-    $name = $who[1];
+    $name = strtolower($who[1]);
 
-    if (in_array(strtolower($name), ['tom', 'thomas', 'pfy'])) {
+    if (in_array($name, ['tom', 'thomas', 'pfy'])) {
         $reply = 'https://twitter.com/realrideout';
     }
 
-    if (in_array(strtolower($name), ['john', 'jon', 'johncongdon'])) {
+    if (in_array($name, ['john', 'jon', 'johncongdon'])) {
         $reply = 'https://twitter.com/johncongdon';
     }
 
-    if (in_array(strtolower($name), ['eric', 'erick', 'erik', 'shocm'])) {
+    if (in_array($name, ['eric', 'erick', 'erik', 'shocm'])) {
         $reply = 'https://twitter.com/shocm';
     }
 
