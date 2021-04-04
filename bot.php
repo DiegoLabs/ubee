@@ -57,8 +57,7 @@ function checkCommands($message)
                 $reply = commandHelp();
                 break;
             case 'title':
-                commandTitle($message);
-                $reply = 'Title suggestion added';
+                $reply = commandTitle($message);
                 break;
             case 'cht':
                 $reply = commandCht($message);
@@ -83,6 +82,8 @@ function commandTitle($message)
         $content,
         FILE_APPEND | LOCK_EX
     );
+
+    return "I added your title suggestion, {$title[1]}";
 }
 
 function commandHelp()
@@ -90,7 +91,7 @@ function commandHelp()
     $reply = "\r\n!help - This help list. \r\n";
     $reply .= "!title {Title Suggestion} - Suggest a title for the show. \r\n";
     $reply .= "!cht {PHP Function} - Look up something with cheat.sh \r\n";
-    $reply .= "!whois {PHPUgly Host Name} - A good place to start you stalking of PHPUgly host \r\n";
+    $reply .= "!whois {PHPUgly Host Name} - A good place to start your stalking of PHPUgly host \r\n";
     return $reply;
 }
 
