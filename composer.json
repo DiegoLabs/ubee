@@ -1,5 +1,22 @@
 {
+    "name": "DiegoLabs/ubee",
+    "description": "This is honestly probably not going to be very useful to the normal user. This is a Discord Bot to accompany the PHPUgly Podcast.",
+    "homepage": "http://github.com/DiegoLabs/ubee",
+    "keywords": [
+        "bot",
+        "podcast"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Van Johnson",
+            "homepage": "https://phpa.me/shocm/",
+            "email": "eric@diegodev.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
+        "php": "^7.0",
         "team-reflex/discord-php": "^5.1",
         "vlucas/phpdotenv": "^5.3"
     }

@@ -6,9 +6,11 @@ use Discord\Discord;
 use Discord\WebSockets\Event;
 use Discord\Parts\Channel\Message;
 
-// Load .env variables
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
+if (file_exists('./.env')) {
+    // Load .env variables
+    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+    $dotenv->load();
+}
 
 
 $commandTrigger = '!';
