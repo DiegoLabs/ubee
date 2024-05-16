@@ -1,0 +1,43 @@
+################ 378 ################
+PHP At-Bat (@jdavidsonwebdev)
+throw DateTimeException(E_TOOFAST) (@sudo.smg)
+Solar PHP Deux (@a.woods)
+Tek Moon Rising (@a.woods)
+Taxing Spreadsheet work (@sudo.smg)
+Eric Sneaks Across The Border (@a.woods)
+################ 379 ################
+Even pros get ulcers (@jdavidsonwebdev)
+Ugly special (@cesar_inspira)
+The Episode awoods Didn’t Name (@a.woods)
+Daylight Savings on the Moon (@sudo.smg)
+Backdoor Injections (@sudo.smg)
+The Ugly who knew too much. (@sudo.smg)
+It's a house of cards. Always has been. (@sudo.smg)
+Compromising Pull Requests (@sudo.smg)
+################ 380 ################
+The Babysitter's Club (@sudo.smg)
+ PHPBeauties and the Beast (@dgoosens)
+Everyone but Eric #002 (@nreynis)
+Background Check (@coriography)
+Who Needs John? (@coriography)
+
+################ 381 ################
+Are you running? (@johncongdon)
+is this thing on?? (@coriography)
+Extra Spicy PHP (@thecodelorax)
+Tek and Friends (@c_money_667)
+peace to the whole squad (@coriography)
+sobriety is not our strong suit (@coriography)
+Sara Drops The Mic (@nsbucky)
+Suggested Title (@butterycrumpets)
+Why is it all so awful? (@ohffs)
+Eric’s Happy Birthday (@a.woods)
+\n\n\r^H just testing 😉 (@ohffs)
+John’s not very smart, it turns out (@coriography)
+Hearing != Listening (@butterycrumpets)
+I wouldn't say I've been listening, Bob... (@sudo.smg)
+Hit Subscribe, Weirdo. (@sudo.smg)
+Why are you listening? (@citizen86)
+John used me as a value object (@citizen86)
+
+################ 382 ################
